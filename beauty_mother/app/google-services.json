@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "185520263192",
+    "firebase_url": "https://beauty-6b064.firebaseio.com",
+    "project_id": "beauty-6b064",
+    "storage_bucket": "beauty-6b064.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185520263192:android:4a8cb387902d86b8",
+        "android_client_info": {
+          "package_name": "tw.com.beauty_parlor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185520263192-djveav0ovjkce8nkqe645bkm04pb03p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEn5xTKq5Joadjsj-UiX_Re029lNxN3_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185520263192:android:d8a18dfe9e1ecd7b",
+        "android_client_info": {
+          "package_name": "beauty.tw.beauty_mother"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185520263192-djveav0ovjkce8nkqe645bkm04pb03p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEn5xTKq5Joadjsj-UiX_Re029lNxN3_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

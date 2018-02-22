@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/baseTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/baseTopTitle"
+            android:layout_width="match_parent"
+            android:background="@color/baseColor"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/txtTopTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="DUClass"
+                android:textColor="#ffFF"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/setting_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:background="#0000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="#ffdedede" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/baseLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/baseTop"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

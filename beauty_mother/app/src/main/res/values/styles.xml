@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <drawable name="color_white">#ffffffff</drawable>
+    <drawable name="color_mint">#FF3ba699</drawable>
+    <drawable name="color_blue">#ff328dcd</drawable>
+    <drawable name="color_alpha">#ffffffff</drawable>
+    <drawable name="color_black_sub">#ff7D7D7D</drawable>
+    <drawable name="color_orange_light_alpha">#ff7cb5ab</drawable>
+    <drawable name="color_green_light">#ff007a66</drawable>
+    <drawable name="color_green">#ff006252</drawable>
+    <drawable name="color_orange">#ffee7860</drawable>
+    <drawable name="color_orange_light">#ffee9583</drawable>
+    <drawable name="color_black">#ff333333</drawable>
+    <drawable name="color_gray_8">#ff888888</drawable>
+    <drawable name="color_gray">#ff666666</drawable>
+    <drawable name="color_gray_a">#ffaaaaaa</drawable>
+
+
+
+    <style name="TransDialog2">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/appColor</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+    <style name="TextCommon">
+        <item name="android:background">#0000</item>
+        <item name="android:maxLength">32</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">#7cb5ab</item>
+        <item name="android:textColor">#007a66</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">묭실</string>
+    <string name="checkBox_cut">컷트</string>
+    <string name="checkBox_perm">파마</string>
+    <string name="checkBox_dyeing">염색</string>
+    <string name="checkBox_else">기타</string>
+
+    <string name="radioButton_overlap_ok">중복 예약 허용</string>
+    <string name="radioButton_overlap_no">중복 예약 거부</string>
+</resources>

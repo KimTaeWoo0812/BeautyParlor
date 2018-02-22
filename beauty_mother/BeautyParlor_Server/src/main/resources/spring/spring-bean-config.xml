@@ -1,0 +1,56 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+    <bean id="userDao" class="com.mkyong.dao.UserDaoImpl" >
+		<property name="namedParameterJdbcTemplate" ref="jdbcTemplate" />
+	</bean>
+	
+    
+    <bean id="users_post" class="com.beautyparlor.service.users.users_POST"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" >
+	    <!-- 
+		<property name="dataSource" ref="dataSource" />
+		 -->
+		 <!-- 
+		 <constructor-arg ref="dbcpDataSource" />
+		  -->
+		<constructor-arg ref="dataSource" />
+	</bean>
+	
+	<!-- Start Hsql database manager tool -->
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/daeguuclass"/>
+        <property name="username" value="root"/>
+        <property name="password" value="ekdrms52"/>
+
+
+</beans>
+
+	<!-- 
+	<bean id="dbcpDataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="org.hsqldb.jdbcDriver" />
+		<property name="url" value="jdbc:hsqldb:mem:dataSource" />
+		<property name="username" value="sa" />
+		<property name="password" value="" />
+	</bean>
+ 	 -->
+ 	  
+</beans>

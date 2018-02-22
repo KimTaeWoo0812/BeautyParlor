@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="baseColor">#523738</color>
+    <color name="appColor">#FFFEE601</color>
+    <color name="appColor_99">#99FEE601</color>
+    <color name="color_black_sub">#ff7D7D7D</color>
+
+
+    <color name="green">#8FCC85</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="global_color_primary_light">#f5f5f5</color>
+
+
+
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+
+</resources>
